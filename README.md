@@ -14,6 +14,13 @@ Short project description goes here.
 - [License](#license)
 - [Contact](#contact)
 
+Replace the following placeholders with corresponding icons:
+
+- MongoDB: ![MongoDB Icon](link_to_mongodb_icon)
+- Express.js: ![Express.js Icon](link_to_expressjs_icon)
+- React: ![React Icon](link_to_react_icon)
+- Node.js: ![Node.js Icon](link_to_nodejs_icon)
+
 ## Project Overview
 
 Explain briefly what your project is about and what problem it aims to solve. Provide any necessary context.

@@ -1,2 +1,29 @@
-node_modules
-node_modules
+# Ignore node_modules directory
+node_modules/
+
+# Ignore built TypeScript files
+*.js
+*.js.map
+
+# Ignore log files
+*.log
+
+# Ignore Jest coverage reports
+coverage/
+
+# Ignore environment-specific configuration files
+.env
+
+# Ignore any editor-specific files and directories (you can add more based on your editor)
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Webpack build output
+/dist/
+
+# Ignore lib-cov folder
+lib-cov/

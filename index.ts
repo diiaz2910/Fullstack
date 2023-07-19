@@ -12,8 +12,14 @@ const port = process.env.PORT || 8000;
 // Defining first route of the APP
 app.get('/', (req, res) => {
     //Sending Hello World
-    res.send("Welcome API RESTFUL EXPRESS!");
+    res.send("Welcome to the API RESTFUL Express + Ts + Nodemon + Jest + Swagger + Mongoose");
 });
+
+app.get('/hello', (req, res) => {
+    //Sending Hello World
+    res.send("Welcome to GET Route: Hello!");
+});
+
 
 //Executing the APP
 

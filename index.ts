@@ -15,6 +15,7 @@ app.get('/', (req, res) => {
     res.send("Welcome to the API RESTFUL Express + Ts + Nodemon + Jest + Swagger + Mongoose");
 });
 
+// Defining first route of the APP
 app.get('/hello', (req, res) => {
     //Sending Hello World
     res.send("Welcome to GET Route: Hello!");
